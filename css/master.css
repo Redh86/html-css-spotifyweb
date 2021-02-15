@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+/* debug */
+.debug nav {
+  border: 2px solid black;
+  background-color: lightblue;
+}
+.debug main {
+  border: 2px solid black;
+  background-color: lightgrey;
+}
+.debug footer {
+  border: 2px solid black;
+  background-color: grey;
+}
+.debug .nav-footer {
+  border: 2px solid black;
+  background-color: pink;
+}
+.debug main div {
+  border: 2px solid black;
+  background-color: lightgreen;
+}
+/* general */
+.wrap {
+  display: flex;
+}
+/* nav */
+nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 200px;
+  height: calc(100vh - 100px);
+  min-height: 250px;
+  margin: 0;
+}
+.nav-footer {
+  position: fixed;
+  width: 200px;
+  height: 40px;
+  margin: 0;
+}
+/* main */
+main {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 200px;
+  width: 100%;
+  height: 100vh;
+}
+.recent {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+main img {
+  width: 100px;
+  height: 100px;
+}
+/* footer */
+footer {
+  align-self: flex-end;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+}
