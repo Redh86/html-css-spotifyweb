@@ -182,7 +182,7 @@ nav img {
   flex-direction: column;
   background-color: #000000;
   bottom: 100px;
-  width: 200px;
+  width: 150px;
   height: 80px;
   margin: 0;
   z-index: 900;
@@ -190,7 +190,7 @@ nav img {
 .nav-footer p,
 .nav-footer hr,
 .nav-footer h3 {
-  margin: 5px 20px 5px 20px;
+  margin: 5px 0 5px 5px;
   font-size: 1em;
 }
 
